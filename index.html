@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dowon stay</title>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <link rel="shortcut icon" href="images/favicon1.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/ham.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    $(function () {
+      $('.themeList').bxSlider({
+       auto:true,
+       minSlides:1,
+       maxSlides:3,
+       slideWidth:400,
+       pager:false
+      })
+    })
+  </script>
+</head>
+
+<body>
+  <ul class="gnb">
+    <li class="login"><a href="login.html"><img src="images/login.png" alt="login">
+        <span>로그인</span></a></li>
+    <li class="book"><a href="#"><img src="images/book.png" alt="book"><span>예약<br>하기</span></a></li>
+    <li class="mypage"><a href="#"><img src="images/mypage.png" alt="mypage"><span>마이<br>페이지</span></a></li>
+    <li class="top"><a href="#"><img src="images/top-arrow.png" alt="top"><span>TOP</span></a></li>
+  </ul>
+  <!-- header -->
+  <header>
+    <div class="headTop">
+      <h1 class="logo"><a href="#"><img src="images/logo.png" alt="dowon logo"></a></h1>
+      <div class="mLogo"><a href="#"><img src="images/LOGO_Dowon.png" alt=""></a></div>
+      <nav>
+      <ul id="nav">
+        <li><a href="#">내 취향 여행</a></li>
+        <li><a href="#">테마가 있는 힐링이지</a></li>
+        <li><a href="#">비교해보는 힐링이지</a></li>
+        <li><a href="#">소개</a></li>
+      </ul>
+      <ul id="mobileNav">
+        <li><a href="#"><img src="images/M5.svg" alt=""><span>예약하기</span></a></li>
+        <li><a href="#"><img src="images/M4.svg" alt=""><span>마이 페이지</span></a></li>
+        <li><a href="#"><img src="images/login-on.png" alt=""><span>로그인하기</span></a></li>
+        <li><a href="#"><img src="images/mask.png" alt=""><span>1:1 문의하기</span></a></li>
+      </ul>
+    </nav>
+      <div class="headRight">
+        <div class="search">
+          <input type="text" />
+          <span class="material-icons">search</span>
+        </div>
+        <div class="ham"><a href="#"></a></div>
+      </div>
+    </div>
+<!-- mobile bottom menu -->
+    <div class="bottom_menu">
+      <ul>
+        <li><a href="javascript:void(0);"><img src="images/1.svg" alt=""></a></li>
+        <li><a href="javascript:void(0);"><img src="images/2.svg" alt=""></a></li>
+        <li><a href="#"><div><img src="images/3.svg" alt=""></div></a></li>
+        <li><a href="javascript:void(0);"><img src="images/4.svg" alt=""></a></li>
+        <li><a href="login.html"><img src="images/5.svg" alt=""></a></li>
+     
+      </ul>
+    </div>
+  </header>
+
+  <!-- #mainBanner -->
+  <div id="mainBanner">
+    <div class="banner">
+      <a href="#"><img src="images/main.jpg" alt=""></a>
+    </div>
+    <div class="bannerTitle">
+      <p><span>[村;촌]</span> 에서 살아보기 <br> <span>RUSTIC LIFE</span></p>
+    </div>
+    <div class="arrow">
+      <a href="#container" class="down"><img src="images/down-arrow.png" alt=""></a>
+    </div>
+  </div>
+
+  <!-- #container -->
+  <div id="container">
+    <div class="innerBox">
+      <section class="dowonWrap">
+        <div class="textWrap">
+          <p>나는 <strong><i><img src="images/dog.png" alt="강아지그림"></i> 반려동물과 함께</strong> 여행을 떠나고 싶어요.</p>
+          <p><strong><i><img src="images/tree.png" alt="나무그림"></i> 자연</strong> 에서 <strong><i><img src="images/snk.png"
+                  alt="스노우쿨링그림"></i> 취미를 즐기는</strong> 힐링을 즐기고 싶어요.
+          </p>
+          <div class="button">
+            <p class="leftBtn"><a href="#">다른 취향 보기</a></p>
+            <p class="rightBtn"><a href="#">내 취향 여행 보기</a></p>
+          </div>
+        </div>
+        <ul class="dowonList">
+          <li>
+            <a href="#">
+              <div class="imgBox"><img src="images/hobby.jpg" alt=""></div>
+              <div class="textBox">
+                <p>포시즌 호텔</p>
+                <strong>서울</strong>
+              </div>
+            </a>
+          </li>
+          <li class="active">
+            <a href="#">
+              <div class="imgBox"><img src="images/nature1.jpg" alt=""></div>
+              <div class="textBox">
+                <p>더 종가</p>
+                <strong>서울</strong>
+
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="imgBox"><img src="images/nature,hobby.jpg" alt=""></div>
+              <div class="textBox">
+                <p>가은채</p>
+                <strong>전주</strong>
+
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="imgBox"><img src="images/nature2.jpg" alt=""></div>
+              <div class="textBox">
+                <p>써니데이</p>
+                <strong>제주도</strong>
+
+              </div>
+            </a>
+          </li>
+          <li class="active">
+            <a href="#">
+              <div class="imgBox"><img src="images/nature3.jpg" alt=""></div>
+              <div class="textBox">
+                <p>쏠 비치</p>
+                <strong>강원도</strong>
+
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="imgBox"><img src="images/nature4.jpg" alt=""></div>
+              <div class="textBox">
+                <p>설악 맨션</p>
+                <strong>강원도</strong>
+
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="theme">
+        <div class="titleBox">
+          <h2 class="title">테마가 있는 힐링이지</h2>
+          <div class="hashTag">
+            <a href="javascript:void(0);" class="selected">#호캉스</a>
+            <a href="javascript:void(0);">#바닷가</a>
+            <a href="javascript:void(0);">#러스틱</a>
+            <a href="javascript:void(0);">#제주도</a>
+          </div>
+        </div>
+        <div class="themeWrap">
+          <ul class="themeList">
+            <li>
+              <a href="#">
+                <div class="imgBox"><img src="images/hokangs1.png" alt=""></div>
+                <div class="textBox">
+                  <p class="star"><img src="images/star.png" alt="">8.0 (1.836)</p>
+                  <strong>그라벨 호텔 제주</strong>
+                  <p class="detail">그라벨 호텔 제주는 목재 가구와 요이불 세트가 구비된 한실과 서양식 객실을 모두 보유하고...</p>
+                  <p class="more">자세히보기</p>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <div class="imgBox"><img src="images/hokangs2.png" alt=""></div>
+                <div class="textBox">
+                  <p class="star"><img src="images/star.png" alt="">8.2 (979)</p>
+                  <strong>호텔 시리우스</strong>
+                  <p class="detail">객실은 고급 침구를 갖추고 있습니다. 전용 욕실에는 비데와 무료세면도구가 마련되어 있습니다...</p>
+                  <p class="more">자세히보기</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="imgBox"><img src="images/hokangs3.png" alt=""></div>
+                <div class="textBox">
+                  <p class="star"><img src="images/star.png" alt="">9.1 (294)</p>
+                  <strong>롯데호텔 제주</strong>
+                  <p class="detail">롯데호텔 제주의 야외 수영장은 무료로 이용 가능하며, 실내 수영장, 피트니스 센터와 사우나는...</p>
+                  <p class="more">자세히보기</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="imgBox"><img src="images/hokangs4.png" alt=""></div>
+                <div class="textBox">
+                  <p class="star"><img src="images/star.png" alt="">9.2 (294)</p>
+                  <strong>포시즌스 호텔 서울</strong>
+                  <p class="detail">화문광장에서 도보로 가까운 거리에 잇는 포시즌스 호텔 서울은 도시 전망을 자랑하며, 5개의 레... </p>
+                  <p class="more">자세히보기</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <section class="lowestPrice">
+      <h2 class="title">비교해보는 힐링이지</h2>
+      <div class="titleWrap">
+        <div class="img"><a href="#"><img src="images/lowprice.jpg" alt=""></a></div>
+
+        <div class="photoBox">
+          <div class="titleBox">
+            <span>그래, 이게바로 힐링이지!</span>
+            <span>내가찾는 호텔 최저가 알아보기</span>
+            <p>떠나고 싶은 마음에게 쉽게 답을 드리는
+              <br>호텔과 함께 특별한 경험을 시작하세요.
+            </p>
+          </div>
+          <div class="priceList">
+            <div class="moreImg">
+              <div class="imgList"><a href="#"><img src="images/lowprice1.jpg" alt=""></a></div>
+              <div class="textBox">
+                <strong>월드 스테이트 호텔 속초</strong>
+                <p class="star"><a href="#"><img src="images/star.png" alt="">8.5 (631)</a></p>
+                <p>월드 스테이트 호텔은 속초시에 위치해 있습니다. 객실은 발코니, 에어컨, 평면TV를...</p>
+                <p class="price">
+                  <span class="highPrice">222,222원</span>
+                  <strong class="lowPrice">143,111원</strong>
+                </p>
+                <p class="room">남은 객실 1개</p>
+              </div>
+            </div>
+            <div class="moreImg">
+              <div class="imgList"><a href="#"><img src="images/lowprice2.jpg" alt=""></a></div>
+              <div class="textBox">
+                <strong>에코랜드 호텔</strong>
+                <p class="star"><a href="#"><img src="images/star.png" alt="">8.5 (20)</a></p>
+                <p>제주에 자리한 에코랜드 호텔에서 머물러보세요. 숙소는 다음을 갖추고 있습니다. 레...</p>
+                <p class="price">
+                  <span class="highPrice">420,000원</span>
+                  <strong class="lowPrice">252,000원</strong>
+                </p>
+                <p class="room">남은 객실 3개</p>
+              </div>
+              
+            </div>
+            <div class="moreImg">
+              <div class="imgList"><a href="#"><img src="images/lowprice3.jpg" alt=""></a></div>
+              <div class="textBox">
+                <strong>신라스테이 서부산</strong>
+                <p class="star"><a href="#"><img src="images/star.png" alt="">8.4 (187)</a></p>
+                <p>부산에 자리한 신라스테이 서부산에서는 레스토랑, 무료전용 주차장, 피트니스 센터등을...</p>
+                <p class="price">
+                  <span class="highPrice">286,000원</span>
+                  <strong class="lowPrice">143,000원</strong>
+                </p>
+                <p class="room">남은 객실 7개</p>
+              </div>
+            </div>
+            <p class="more"><a href="#"><img src="images/more arrow2.png" alt=""></a></p>
+          </div>
+          <div class="loadMore"><a href="#">더보기</a></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  </section>
+
+  </div>
+
+
+  <!-- footer -->
+  <footer>
+    <div class="innerBox">
+
+      <div class="footLogo"><a href="#"><img src="images/LOGO_Dowon.png" alt=""></a></div>
+
+      <div class="footMiddle">
+        <ul class="footMenu">
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인전보처리방침</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="address">
+          <div class="addWrap">
+
+            <address>
+              <p>
+                <span>대표이사: 김세영</span>
+
+                <span>T. 02.0000.0000</span>
+
+                <span>F. 02.0000.0000</span>
+
+                <span>E-Mail. dowonstay@do.co.kr</span>
+              </p>
+              <p>
+                <span>사업자등록번호: 000-00-00000</span>
+                <span>통신판매신고번호: 0000-00-0000</span>
+              </p>
+
+            </address>
+            <p>&copy;DOWON STAY All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sns">
+        <ul class="utilMenu">
+          <li><a href="#"><img src="images/insta.png" alt=""></a></li>
+          <li><a href="#"><img src="images/fb.png" alt=""></a></li>
+          <li><a href="#"><img src="images/tw.png" alt=""></a></li>
+        </ul>
+
+        <!-- <p> DOWON STAY All rights reserved.</p> -->
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
